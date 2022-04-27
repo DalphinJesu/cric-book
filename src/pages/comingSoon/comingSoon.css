@@ -1,0 +1,21 @@
+.NYI_page {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 120px);
+}
+.NYI_title {
+	font-size: 36px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+.NYI_page button.goToHome {
+	border: none;
+	color: #FFF;
+	background-color: darkblue;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-top: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.featureTitle {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.featureContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.featureItem {
+	flex: 1;
+	margin: 0 20px;
+	padding: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	background-color: #fff;
+}
+.featureItem:hover {
+	box-shadow: 5px 12px 20px rgba(36, 37, 38, 0.13);
+}
+.teamName {
+	margin-right: 10px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.detailsContainer {
+	margin: 10px 0;
+}
+
+.wonCount {
+	color: green;
+	font-weight: 700;
+}
+
+.lostCount {
+	color: red;
+	font-weight: 700;
+}
+
+.ptsCount {
+	color: darkblue;
+	font-weight: 700;
+}
+
+.lastUpdate {
+	color: #555;
+	font-size: 12px;
+}
