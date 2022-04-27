@@ -1,0 +1,58 @@
+.pointsTableContainer {
+	width: 100%;
+	/* height: 800px; */
+	box-shadow: 0 4px 20px rgb(102 102 102 / 30%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pointsTableTeamContainer {
+	display: flex;
+	align-items: center;
+}
+.pointsTableContainer .MuiDataGrid-root .MuiDataGrid-columnsContainer {
+	background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) !important;
+	color: #FFF;
+}
+.pointsTableContainer .MuiDataGrid-root .MuiDataGrid-columnSeparator { 		display: none;
+}
+.pointsTableContainer .MuiDataGrid-root .MuiDataGrid-row.Mui-odd {
+	background-color: #FFF;
+    color: #303030;
+}
+.pointsTableContainer .MuiDataGrid-root .MuiDataGrid-row.Mui-even {
+	background-color: rgba(0,0,0,0.05);
+    color: #212529;
+}
+.pointsTableContainer .MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+	font-weight: 600;
+}
+.pointsTableTeamContainer .positionTd {
+	font-weight: 600;
+	font-size: 16px;
+}
+.pointsTableTeamLogo {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 5px;
+}
+.formingContainer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-evenly;
+}
+.formingContainer .formGrid {
+	width: 20px;
+    height: 20px;
+    font-size: 10px;
+	border-radius: 2px;
+	font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+	color: #FFF;
+}
+.formGrid.form_win { background-color: #01a54b; }
+.formGrid.form_lost { background-color: #ff290c; }
